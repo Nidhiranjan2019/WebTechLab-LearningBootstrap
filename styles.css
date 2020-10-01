@@ -1,11 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
 .girlimg {
     border-radius: 5px;
 }
 
 .mod-btn {
-    margin-left: 2%;
+
+background-color: firebrick;
+margin-bottom: 5%;
 }
 
-#jbtn{
+#jbtn {
     background-color: firebrick;
+}
+
+.heading {
+    font-size: 400%;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.carousel-item img {
+    height: 93vh;
+    width: 100%;
+}
+
+.carousel-caption {
+    color: white;
+    font-size: 100%;
+    
+    text-shadow: 1px 1px black;
+}
+
+footer p {
+    margin-bottom: 0;
+    padding: 1%;
+}
+.auth{
+    text-align: right;
+}
+
+
+.quote{
+    background-color: #a6dcef; 
+}
+
+h5{
+    font-size: 200%;
+}
+
+
+
+
+
+
+
+/* responsive css code */
+/* // X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    ...;
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    ...;
+}
+/* 
+// Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    ...;
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    ...;
+}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+    ...;
 }
